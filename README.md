@@ -1,9 +1,9 @@
 # Development Environment Setup Kit
----
+
 Configuration files and documentation required to properly setup a Development Environment containing:
 
-* [JDK](jdk/jdk-setup-reference.md) 
-* [Eclipse](eclipse/eclipse-setup-guide)
+* [JDK](jdk/jdk-setup-guide.md) 
+* [Eclipse](eclipse/eclipse-setup-guide.md)
 
 ## Why use our guides
 While replicating an installation of development may seem relatively easy (as easy as copying the Eclipse installation directory to another machine), **replicating the configurations** by all members of a development team is not a simple task. 
