@@ -21,7 +21,7 @@ If you have an idea for a guide, suggestions for enhancement or have identified 
 Please make sure you:
 
 * Have used and understand how the Environment Setup Kit is organised (each directory corresponds to a guide)
-* Have read the contribution guide
+* Have read the [contribution guide](./CONTRIBUTING.md)
 
 Thank you for considering helping the improvement of the Development Environment Setup Kit
 
