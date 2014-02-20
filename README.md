@@ -1,6 +1,8 @@
 # Development Environment Setup Kit
 
-Free configuration files and documentation to effectively setup a documented Development Environment understandable by all members of a team of programmers. The Development Environment Setup kit consists of the following installation and setup guides:
+Free configuration files and documentation to effectively setup a documented Development Environment understandable by all members of a team of programmers.
+
+The Development Environment Setup kit consists of the following installation and setup guides:
 
 * [JDK installation and configuration guide](jdk/jdk-setup-guide.md) 
 * [Eclipse IDE installation and configuration guide](eclipse/eclipse-setup-guide.md)
