@@ -1,10 +1,13 @@
-#Eclipse Configuration Reference Guide
-This guide describes how to properly install and configure Eclipse for Java development. While replicating an Eclipse installation is relatively easy (as easy as copying the Eclipse installation directory to another machine), **replicating the configurations** by all members of a development team is not a simple task. This text aims at documenting a reference Eclipse configuration that can be shared and replicated within a team of programmers. 
+#Eclipse Setup Reference Guide
+![](images/eclipse_logo.jpeg)  
+The Eclipse Platform is our chosen building integrated development environments (IDE). It is a versatile platform to create applications as diverse as web sites, embedded Java programs, C/C++ programs, etc. For more information check wikipedia’s page and [eclipse’s official site](http://www.eclipse.org/).
 
 ##Step-by-step installation
+This guide describes how to properly install and configure Eclipse for Java development.  
+
 Setup the Eclipse Integrated Development Environment
 
-* [Eclipse Setup](#eclipse_setup)
+* [Eclipse Installation and Configuration](#eclipse_setup)
 
 Setup of fundamental code quality plugins
 
@@ -23,7 +26,7 @@ Manually configure the Code Convention plugins
 * [Creating a Checkstyle Configuration File](#checkstyle_conf_file)
 * [Manually Configuring the Code Formater](#code_formatter_manually)
 
-##Configuration files
+##Accompanying Configuration files
 This guide is accompanied by the **configuration files** for Eclipse and for some of the recommended plugins. These files **are meant to be synchronized** with the detailed configuration descriptions herein. In particular:
 
 * The file [*eclipse-java-formater-config.xml*](./) should reflect the detailed configuration descriptions found in the [detailed configuration of the Code Formater](#code_formatter_manually).
@@ -36,20 +39,10 @@ Thus, any changes to the description of the configurations described in this gui
 * [Paulo Carreira](http://web.ist.utl.pt/paulo.carreira)
 * Gonçalo Almeida
 
-___
+---
 <a name="eclipse_setup"></a>
-#Eclipse Setup
-![](images/eclipse_logo.jpeg)  
-The Eclipse Platform is our chosen building integrated development environments (IDE). It is a versatile platform to create applications as diverse as web sites, embedded Java programs, C/C++ programs, etc. For more information check wikipedia’s page and [eclipse’s official site](http://www.eclipse.org/).
-
-
 ##Dependencies
-You must start by installing a Java Virtual Machine (JVM) to run Java programs and also the Java Development Kit that brings the java compiler as well as other tools required to develop Java programs. It is recommended that you set up **Oracle JDK (v1.7.0_51)** that will provide  the JDK along with the JVM.
-
-* Download and install **Oracle JDK JDK (v1.7.0_51)** from the [official site](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html)
-* Set the `JAVA_HOME` environment variable 
-* Add `JAVA_HOME/bin` to the `PATH` environment variable
-
+* [Install JDK](../jdk/jdk-setup-guide)
 
 ##Download
 There are a few versions of the Eclipse IDE, each equipped with a different set of plugins. You should download the **Eclipse IDE for Java EE Development** from [Eclipse download site](http://www.eclipse.org/downloads/index.php). 
