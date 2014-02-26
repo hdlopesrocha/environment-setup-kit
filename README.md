@@ -4,8 +4,14 @@ Free configuration files and documentation to effectively setup a documented Dev
 
 The Development Environment Setup kit consists of the following installation and setup guides:
 
+### Setup guides
+
 * [JDK installation and configuration guide](jdk/jdk-setup-guide.md) 
 * [Eclipse IDE installation and configuration guide](eclipse/eclipse-setup-guide.md)
+
+### Usage guides
+
+* [Eclipse Shortcut guide](eclipse/eclipse-shortcuts.md)
 
 ## Why use our guides
 While replicating an installation of development may seem relatively easy (as easy as copying the Eclipse installation directory to another machine), **replicating the configurations** by all members of a development team is not a simple task. 
