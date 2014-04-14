@@ -16,8 +16,8 @@ On Windows avoid installing on a directory with spaces on the name. A good optio
 
 ## Configuration
 * Configure a system variable `JAVA_HOME` to point to to the directory where the JDK was installed.
-* Add the binary directory `$JAVA_HOME/bin` to the `PATH` environment variable.
-* Install the documentation by uncompressing the documentation file and moving it to `$JAVA_HOME/doc`.
+* Add the binary directory `$JAVA_HOME/bin` to the `PATH` environment variable (`%JAVA_HOME%/bin` for Windows).
+* Install the documentation by uncompressing the documentation file and moving it to `$JAVA_HOME/docs`.
 
 ## Checking the installation
 Open a command shell and execute `java -version` then `javac -version` and finally `javadoc`. The first two commands should return the current version of the tools. The last command should print the correct usage of the command.
